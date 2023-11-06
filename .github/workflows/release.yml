@@ -46,5 +46,5 @@ jobs:
           registry: ${{ env.REGISTRY }}
           registry_username: ${{ github.actor }}
           registry_password: ${{ secrets.GITHUB_TOKEN }}
-          registry_reference: "${{ env.REGISTRY }}/fermyon/spin-zola-ssg:${{ github.event.inputs.tag }}"
+          registry_reference: "${{ env.REGISTRY }}/karthik2804/spin-zola-ssg:${{ github.event.inputs.tag }}"
           manifest_file: spin-zola-ssg/spin.toml
