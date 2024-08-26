@@ -1,0 +1,8 @@
+apiVersion: core.spinoperator.dev/v1alpha1
+kind: SpinApp
+metadata:
+  name: spin-zola-ssg
+spec:
+  image: "ghcr.io/karthik2804/spin-zola-ssg:v0.1.0"
+  executor: containerd-shim-spin
+  replicas: 2
